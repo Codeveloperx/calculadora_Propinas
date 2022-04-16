@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Calculadora De Propinas</title>
+    <link rel="shortcut icon" href="https://e1.pngegg.com/pngimages/785/690/png-clipart-android-lollipop-icons-calculator-calculator-icon-thumbnail.png" type="image/x-icon">
+  </head>
+  <body>
+    <h1 class="titulo">CALCULADORA DE PROPINAS</h1>
+
+    <div class="principal">
+        <label for="total_cuenta">Total de la cuenta</label>
+        <input type="number" value="" id="total_cuenta" placeholder="Total de la cuenta..">
+    
+        <label for="porcentaje">Porcentaje de propina</label>
+        <input type="number" id="porcentaje" placeholder="Porcentaje de propina..">
+
+        <button class="botones" id="calcular">Calcular</button>
+    <div class="resultado">
+      <hr>
+      <h3>Resultado</h3>
+      <div class="content">
+      </div>
+      <button class="botones" id="limpiar">Limpiar</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
